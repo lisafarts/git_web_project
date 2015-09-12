@@ -1,0 +1,311 @@
+body { background-color: #333; color: #eee; }
+
+#container {
+	background-color: #eee; 
+}
+.inset {
+	outline: solid 1px red;
+	width: 90%;
+	min-width: 320px; 
+	max-width: 1200px;
+	/*padding: 10px; */
+	margin: auto;
+	color: #333;
+}
+
+header 	{ background-color: #fff4f0; padding: 10px; }
+nav 	{ background-color: #fff4f0; padding: 10px; }
+#main 	{ background-color: #fff4f0; padding: 10px; }
+footer 	{ background-color: #F5BEC1; padding: 10px; }
+
+#header_logo { 
+	white-space: nowrap;
+	overflow: hidden;	
+}
+
+img { max-width: 100%; height: auto; }
+
+/*-------------------------------------
+| header and footer
+-------------------------------------*/
+header .inset {
+	line-height: 200px;
+	font-size: 50px;
+	text-align: center;
+}
+footer .inset {
+	line-height: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+/*-------------------------------------
+| nav
+-------------------------------------*/
+nav { text-align: center; min-height: 70px; }
+nav a {
+	display: inline-block;
+	width: 75px; 
+	line-height: 50px; 
+	border-radius: 5px;
+	background-color: #A47F81;
+	color: #fff;
+}
+nav a:hover { background-color: #F5BEC1; color: #fff; text-decoration: none; }
+nav a.chosen { background-color: #CFA0A2;  color: #AC445D; }
+
+/*-------------------------------------
+| Main
+-------------------------------------*/
+footer .inset { line-height: 50px; }
+#main section { min-height: 300px; }
+#main section:nth-of-type(even) { background-color: #BED9DF; }
+
+/*-------------------------------------
+| 12 Column Grid
+-------------------------------------*/
+.row > div { 
+	outline: solid 2px green;
+	min-height: 100px; 
+}
+
+img { max-width: 100%; }
+
+/*-------------------------------------
+| Pinned Navigation
+-------------------------------------*/
+#main section {
+	min-height: 600px;
+}
+
+.pinned nav {
+	position: fixed;
+	top: 0px; 
+	left: 0px; 
+	right: 0px;
+	z-index: 3000;
+}
+
+.pinned header {
+	margin-bottom: 70px;
+}
+
+
+/*-------------------------------------
+| Hamburger Menu Toggle
+-------------------------------------*/
+nav { min-height: 70px; }
+nav .glyphicon-menu-hamburger {
+	font-size: 30px;
+	color: #4A000C;
+	line-height: 50px;
+}
+nav a {
+	display: block;
+	margin: 10px auto;
+}
+
+@media screen and (min-width:700px) {
+	nav .glyphicon-menu-hamburger { display: none; }
+
+	nav a { display: inline-block; margin: 0px; }
+}
+
+
+
+/*-------------------------------------
+| Dynamic Class Switching
+-------------------------------------*/
+/*.myBox {
+	width: 300px;
+	line-height: 300px; 
+	text-align: center;
+	margin: auto;
+	background-color: yellow;
+	font-size: 20px;
+	transition: all .5s;
+}
+.myBox.one 		{ width: 500px; line-height: 200px; background-color: lime; }
+.myBox.two 		{ width: 100px; line-height: 500px; background-color: orange; }
+.myBox.three 	{ width: 700px; line-height: 400px; background-color: pink; }*/
+
+/* Glyphicons*/
+
+.glyphicon {
+	font-size: 40px;
+	color: #AF1BC1;
+	transition: .5s all;
+}
+.glyphicon:hover {
+	font-size: 50px;
+	color: #32C142;
+}
+
+/*Tables*/
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+	background-color: #EFC44C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
