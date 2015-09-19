@@ -1,10 +1,10 @@
-body { background-color: #333; color: #eee; }
+body { background-color: #FFFFFF; color: #8C1839; }
 
 #container {
-	background-color: #eee; 
+	background-color: #FFFFFF; 
 }
 .inset {
-	outline: solid 1px red;
+	/*outline: solid 1px red;*/
 	width: 90%;
 	min-width: 320px; 
 	max-width: 1200px;
@@ -13,10 +13,10 @@ body { background-color: #333; color: #eee; }
 	color: #333;
 }
 
-header 	{ background-color: #fff4f0; padding: 10px; }
-nav 	{ background-color: #fff4f0; padding: 10px; }
-#main 	{ background-color: #fff4f0; padding: 10px; }
-footer 	{ background-color: #F5BEC1; padding: 10px; }
+header 	{ background-color: #FFFFFF; padding: 5px; }
+nav 	{ background-color: #FFFFFF; padding: 10px; }
+#main 	{ background-color: #FFFFFF; padding: 10px; }
+footer 	{ background-color: #8C1839; opacity: .6; padding: 10px; }
 
 #header_logo { 
 	white-space: nowrap;
@@ -37,6 +37,7 @@ footer .inset {
 	line-height: 20px;
 	font-size: 30px;
 	text-align: center;
+	color: white;
 }
 /*-------------------------------------
 | nav
@@ -50,23 +51,23 @@ nav a {
 	background-color: #A47F81;
 	color: #fff;
 }
-nav a:hover { background-color: #F5BEC1; color: #fff; text-decoration: none; }
-nav a.chosen { background-color: #CFA0A2;  color: #AC445D; }
+nav a:hover { background-color: #8C1839; color: #fff; text-decoration: none; }
+nav a.chosen { background-color: #8C1839; opacity: .6;  color: white; }
 
 /*-------------------------------------
 | Main
 -------------------------------------*/
 footer .inset { line-height: 50px; }
 #main section { min-height: 300px; }
-#main section:nth-of-type(even) { background-color: #BED9DF; }
+#main section:nth-of-type(even) { background-color: #FFFFFF; }
 
 /*-------------------------------------
 | 12 Column Grid
 -------------------------------------*/
-.row > div { 
+/*.row > div { 
 	outline: solid 2px green;
 	min-height: 100px; 
-}
+}*/
 
 img { max-width: 100%; }
 
@@ -132,32 +133,38 @@ nav a {
 
 .glyphicon {
 	font-size: 40px;
-	color: #AF1BC1;
+	color: #8C1839;
 	transition: .5s all;
 }
 .glyphicon:hover {
 	font-size: 50px;
-	color: #32C142;
+	color: #FFFFFF;
 }
 
 /*Tables*/
 
 .table-striped>tbody>tr:nth-of-type(odd) {
-	background-color: #EFC44C;
+	background-color: #8C1839; opacity: .6; color: white;
 }
 
+.About {
+	font-size: 20px; 
+	font-family: 'Quicksand', sans-serif;
+	}
+
+/*th.About {
+	font-size: 20px; 
+	font-family: 'Quicksand', sans-serif;}*/
 
 
+h1 {
+	font-size: 50px; 
+	font-family: 'Quicksand', sans-serif;}
 
-
-
-
-
-
-
-
-
-
+.row {
+    margin-right: 0px;
+    margin-left:  0px;
+}
 
 
 
